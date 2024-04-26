@@ -1,0 +1,79 @@
+nav {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 10px;
+    transition: transform 0.3s ease; /* Added transition for hover effect */
+}
+
+
+.logo h1 {
+    color: rgb(0, 0, 0); /* Changed text color to white */
+    margin: 0;
+    font-size: 30px;
+    font-family: "MedievalSharp", cursive;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-right: 20px;
+    transition: transform 0.3s ease; /* Added transition for hover effect */
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+/* Added animation for hover effect */
+.nav-links a:hover {
+    transform: scale(1.1);
+}
+
+/* Added animation for logo hover effect */
+.logo img:hover {
+    transform: rotate(360deg);
+}

@@ -1,0 +1,166 @@
+
+/*
+Nav Menu
+*/
+
+nav {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 10px;
+    transition: transform 0.3s ease; /* Added transition for hover effect */
+}
+
+
+.logo h1 {
+    color: rgb(0, 0, 0); /* Changed text color to white */
+    margin: 0;
+    font-size: 30px;
+    font-family: "MedievalSharp", cursive;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-right: 20px;
+    transition: transform 0.3s ease; /* Added transition for hover effect */
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+/* Added animation for hover effect */
+.nav-links a:hover {
+    transform: scale(1.1);
+}
+
+/* Added animation for logo hover effect */
+.logo img:hover {
+    transform: rotate(360deg);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+h1 {
+    text-align: center;
+}
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/*
+Footer
+*/
+
+footer p {
+    padding:0;
+    font-size: 0.8em;
+    color: hsla(0, 50%, 100%, 0.35);
+    margin: 1em 0;
+    font-size: 1rem;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    margin: 1em 0; 
+}
+
+footer ul li a {
+    padding: 1em; 
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.904);
+    transition: 100ms;
+}
+
+footer ul li a:hover {
+    color: var(--primary);
+}
+
+.icons li a:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+    position: relative;
+    color: black;
+}
+
+footer {
+    background: linear-gradient(to bottom, #4086b8, #174777);
+    color: #fff; 
+    display: grid;
+    place-items: center;
+    padding-top: 2em; 
+    font-size: 1.2rem;
+    margin-top: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sticky-footer li:hover {
+    color: black;
+}
+
+.sticky-footer {
+    position: sticky;
+    top: 100%;
+}
+
+.copyright-footer {
+    font-size: 17px;
+}
+
+.icons {
+    text-align: center;
+}
+
+.fa-discord {
+    margin-left: 2em;
+    margin-top: 19px    ;
+}

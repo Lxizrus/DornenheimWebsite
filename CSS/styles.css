@@ -1,0 +1,119 @@
+
+html {
+    background-color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+/*
+Form
+*/
+
+.LoginForm {
+    text-align: center;
+    padding: 20px;
+}
+
+.emailadd {
+    font-size: 15px;
+    line-height: 1.2;
+    color: #333;
+    display: block;
+    width: 100%;
+    background: #fff;
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 30px 0 53px;
+}
+
+.emailbutton {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #e0e0e0;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background: #333;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s;
+    position: relative;
+    z-index: 1;
+}
+
+.discordbutton {
+    background-color: white;
+    width: 100%;
+    height: 45px;
+    font-size: 15px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.formimage {
+    width: 500px;
+}
+
+.check:checked + label{
+	color:black;
+}
+.check:checked + label .icon{
+	background:#1161ee;
+}
+.check:checked + label .icon:before{
+	transform:scale(1) rotate(45deg);
+}
+.check:checked + label .icon:after{
+	transform:scale(1) rotate(-45deg);
+}
+
+.hr-text {
+    line-height: 1em;
+    margin: 20px;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: .5;
+    &:before {
+      content: '';
+      background: linear-gradient(to right, transparent, #818078, transparent);
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      height: 1px;
+    }
+    &:after {
+      content: attr(data-content);
+      position: relative;
+      display: inline-block;
+      color: black;
+  
+      padding: 0 .5em;
+      line-height: 1.5em;
+      color: #818078;
+      background-color: #fcfcfa;
+    }
+  }
