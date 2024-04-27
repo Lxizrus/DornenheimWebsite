@@ -1,7 +1,8 @@
 
 html {
-    background-color: white;
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
+
 
 body {
     display: flex;

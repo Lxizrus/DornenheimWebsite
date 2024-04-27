@@ -1,9 +1,15 @@
+
+html {
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+
+
 nav {
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -21,7 +27,7 @@ nav {
 
 
 .logo h1 {
-    color: rgb(0, 0, 0); /* Changed text color to white */
+    color: rgb(255, 255, 255); /* Changed text color to white */
     margin: 0;
     font-size: 30px;
     font-family: "MedievalSharp", cursive;
@@ -45,7 +51,7 @@ nav {
 }
 
 .nav-links a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 20px;
 }
@@ -76,4 +82,88 @@ nav ul li a {
 /* Added animation for logo hover effect */
 .logo img:hover {
     transform: rotate(360deg);
+}
+
+.heroimage {
+    display: block;
+    margin: 5em auto; /* Center the image horizontally */
+    max-width: 100%; /* Ensure the image doesn't exceed the viewport width */
+    height: auto;
+    border-radius: 25px;
+}
+
+
+/* 
+Hover Animation
+*/ 
+
+
+/*
+Footer
+*/
+
+footer p {
+    padding:0;
+    font-size: 0.8em;
+    color: hsla(0, 50%, 100%, 0.35);
+    margin: 1em 0;
+    font-size: 1rem;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    margin: 1em 0; 
+}
+
+footer ul li a {
+    padding: 1em; 
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.904);
+    transition: 100ms;
+}
+
+footer ul li a:hover {
+    color: var(--primary);
+}
+
+.icons li a:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+    position: relative;
+    color: black;
+}
+
+footer {
+    background: linear-gradient(to bottom, #4086b8, #174777);
+    color: #fff; 
+    display: grid;
+    place-items: center;
+    padding-top: 2em; 
+    font-size: 1.2rem;
+    margin-top: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sticky-footer li:hover {
+    color: black;
+}
+
+.sticky-footer {
+    position: sticky;
+    top: 100%;
+}
+
+.copyright-footer {
+    font-size: 17px;
+    margin-left: 2em;
+}
+
+.icons {
+    text-align: center;
+}
+
+.fa-discord {
+    margin-left: 2em;
+    margin-top: 19px    ;
 }

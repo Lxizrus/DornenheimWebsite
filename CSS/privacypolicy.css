@@ -1,4 +1,11 @@
 
+
+
+html {
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+
+
 /*
 Nav Menu
 */
@@ -154,6 +161,7 @@ footer {
 
 .copyright-footer {
     font-size: 17px;
+    margin-left: 2em;
 }
 
 .icons {
